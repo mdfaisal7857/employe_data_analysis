@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* App.css */
+
+body {
+  background-color: #f0f2f5; /* Light background */
+  font-family: 'Arial', sans-serif; /* Set font */
+}
+
+.App {
+  padding: 20px;
+}
+
+h3, h4 {
+  color: #001529; /* Dark blue for headings */
+  font-weight: bold;
+}
+
+.ant-table {
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ant-table-thead > tr > th {
+  background-color: #001529; /* Dark header */
+  color: white;
+}
+
+.ant-table-tbody > tr > td {
+  background-color: #fafafa; /* Light background for rows */
+}
+
+.ant-table-tbody > tr:hover > td {
+  background-color: #f6f6f6; /* Slight hover effect */
+}
+
+/* Chart container */
+.chart-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
